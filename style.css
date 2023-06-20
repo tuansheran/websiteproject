@@ -138,7 +138,7 @@ nav{
 
     .hero-section{
         height: 700px;
-        width: 100%;
+        width: 100vh;
         display: flex;
         justify-content: flex-end;
         background-color: 	#FD6A02;
@@ -305,7 +305,11 @@ nav{
     align-items: center;
 }
 
-
+@media (max-width: 500px){
+    .cards{
+        display: block;
+    }
+}
 
 
 /*---------------------------------  
@@ -469,6 +473,12 @@ nav{
 }
 
 
+@media (max-width: 500px){
+    .containers{
+        display: block;
+    }
+}
+
 
 /*---------------------------------  
             #footer
@@ -504,3 +514,9 @@ footer h4 {
     padding: 10px;
 }
 
+@media (max-width: 500px){
+    
+    iframe{
+        visibility: hidden;
+    }
+}
